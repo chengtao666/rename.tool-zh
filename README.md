@@ -4,6 +4,8 @@
 
 **强大的浏览器端批量文件重命名工具**
 
+本仓库是由原仓库复刻而来，进行了汉化并做了exe打包处理，无需部署可以直接在windows上运行，具体请看版本发布
+感谢原作者的代码提供
 支持正则表达式、规则链、实时预览 — 所有操作本地完成，保护隐私。
 
 [![GitHub License](https://img.shields.io/github/license/chenz24/rename.tools)](https://github.com/chenz24/rename.tools/blob/main/LICENSE)
