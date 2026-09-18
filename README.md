@@ -11,6 +11,7 @@ Regex, rule chains, and live preview, with all processing handled locally for co
 [![GitHub Stars](https://img.shields.io/github/stars/chengtao666/rename.tool-zh)](https://github.com/chengtao666/rename.tool-zh)
 
 [在线体验 / Live Demo](https://rename.tools) · [反馈问题 / Report Bug](https://github.com/chengtao666/rename.tool-zh/issues) · [功能建议 / Request Feature](https://github.com/chengtao666/rename.tool-zh/issues)
+·[下载方式/ Download Link](https://github.com/chengtao666/rename.tool-zh/releases/tag/windows)
 
 </div>
 
@@ -21,6 +22,7 @@ Regex, rule chains, and live preview, with all processing handled locally for co
 Rename.Tools 是一款功能完整的浏览器端批量重命名工具。你可以把多条处理规则组合成规则链，在操作前实时预览结果，并直接将改动应用到本机文件。文件不会上传到服务器，重命名过程完全在本地完成。<br>
 Rename.Tools is a full-featured batch file renaming tool that runs in your browser. Combine multiple rename operations into a rule chain, preview every change before applying it, and rename files directly on your device. Files are never uploaded to a server.
 
+该软件已由@chengtao666打包成便携版，可在windows本地使用。链接：https://github.com/chengtao666/rename.tool-zh/releases/tag/windows
 ## 功能亮点 / Features
 
 - **全程本地处理 / 100% Local Processing**<br>
