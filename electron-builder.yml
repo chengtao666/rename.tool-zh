@@ -1,0 +1,62 @@
+appId: com.rename.tools.desktop
+productName: Rename.Tools 中文版
+copyright: Copyright © chenz24
+
+directories:
+  output: release
+
+files:
+  - electron/**/*
+  - package.json
+  - "!node_modules/**/*"
+
+extraResources:
+  - from: .next/standalone
+    to: app
+    filter:
+      - "**/*"
+  - from: .desktop-build/node_modules
+    to: app/node_modules
+    filter:
+      - "**/*"
+  - from: public
+    to: app/public
+    filter:
+      - "**/*"
+  - from: .next/static
+    to: app/.next/static
+    filter:
+      - "**/*"
+
+asar: true
+npmRebuild: false
+nodeGypRebuild: false
+
+win:
+  icon: public/icon-512.png
+  target:
+    - target: portable
+      arch:
+        - x64
+
+portable:
+  artifactName: Rename.Tools-中文版-${version}.${ext}
+
+mac:
+  category: public.app-category.utilities
+  icon: public/icon-512.png
+  hardenedRuntime: true
+  gatekeeperAssess: false
+  artifactName: Rename.Tools-中文版-${version}-${arch}.${ext}
+  target:
+    - target: dmg
+      arch:
+        - x64
+        - arm64
+    - target: zip
+      arch:
+        - x64
+        - arm64
+
+dmg:
+  artifactName: Rename.Tools-中文版-${version}-${arch}.${ext}

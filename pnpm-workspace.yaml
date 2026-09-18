@@ -1,0 +1,9 @@
+allowBuilds:
+  '@parcel/watcher': false
+  '@swc/core': false
+  electron: true
+  electron-winstaller: false
+  esbuild: false
+  msw: false
+  sharp: false
+  workerd: false
